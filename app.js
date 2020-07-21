@@ -57,7 +57,7 @@ app.post("/", function(req, res){
 
 
 
-  //request.write(jsonData);
+  request.write(jsonData);
   request.end();
 })
 
@@ -65,7 +65,4 @@ app.post("/failure", function(req, res){
   res.sendFile(__dirname + "/signup.html");
 })
 
-//API Key
-//f9c75faab539b75185a3f33d5224996f-us10
-//List
-//ce892fc836
+
