@@ -64,8 +64,4 @@ app.post("/", function(req, res){
 app.post("/failure", function(req, res){
   res.sendFile(__dirname + "/signup.html");
 })
-<<<<<<< HEAD
-=======
 
-
->>>>>>> origin/master
